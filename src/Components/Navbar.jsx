@@ -12,9 +12,10 @@ function Navbar() {
             <div className="menu" style={{display:'flex',alignContent:"center",justifyContent:"space-around"}}>
                 <Link to="/"    style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Home</Link>
                 <Link to="/contact"   style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Contact</Link>
-                <Link to="/profile"   style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Profile</Link>
-                <Link to="technology"   style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Technologies</Link>
-                <Link to="products"  style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Products</Link>
+                {/* <Link to="/profile"   style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Profile</Link> */}
+                {/* <Link to="technology"   style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Technologies</Link> */}
+                <Link to="/products"  style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Products</Link>
+                <Link to="/add"  style={{textDecoration:'none',fontSize:"1.3rem",fontWeight:"bold",color:"mediumaquamarine"}} >Cart</Link>
             </div>
         </div>
   )
